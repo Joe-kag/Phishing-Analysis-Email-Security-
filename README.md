@@ -14,16 +14,37 @@ This project covers the complete lifecycle of phishing analysis and response, fr
 - Identified psychological manipulation methods (urgency, authority, scarcity, curiosity)
 - Examined real-world phishing campaigns including Emotet malware distribution
 
+- ![p1](https://github.com/user-attachments/assets/09ac0536-5187-434a-972c-75e4706ad396)
+
+
 ### 2. **Email Header Analysis**
 - Investigated suspicious emails from finance intern regarding password expiration notices
 - Validated email authentication mechanisms (SPF, DKIM, DMARC)
 - Traced email origins through Received headers
 - Identified spoofed sender addresses via Reply-To and Return-Path mismatches
 
+- ![p2](https://github.com/user-attachments/assets/f79905f0-1175-43a6-8fb7-eaa824f27178)
+
+- ![p3](https://github.com/user-attachments/assets/56951ebe-5d61-4c9a-95c5-13faa18f15f3)
+
+- ![p3](https://github.com/user-attachments/assets/0ef1e0f9-7079-4366-9fd1-cf403947f3f0)
+
+
+
+
 ### 3. **Malicious URL Investigation**
 - Examined credential-thieving websites masquerading as Microsoft login pages
 - Analyzed URL obfuscation techniques (IDN spoofing, hidden URLs, URL redirectors)
 - Conducted threat intelligence gathering without direct site interaction
+
+- ![p4](https://github.com/user-attachments/assets/e8c6a322-f2ee-4afe-8ab4-0860268e2833)
+
+- ![p7](https://github.com/user-attachments/assets/10aa4462-54fb-40b0-81d1-a22ca0f2b2f6)
+
+- ![p8](https://github.com/user-attachments/assets/a8857ab3-ca0b-4fc0-869d-56bfcb11b101)
+
+
+
 
 ### 4. **Attachment Analysis**
 - **Case 1**: Regional Sales Manager received suspicious Chrome toolbar installation request
@@ -33,11 +54,27 @@ This project covers the complete lifecycle of phishing analysis and response, fr
 - **Case 2**: HR Specialist compromised by infrastructure upgrade document
   - Investigated ransomware delivery via disguised .7z attachment
   - Identified RTLO character spoofing in filename (appearing as PDF but actually .exe)
+ 
+  - ![Pestudio](https://github.com/user-attachments/assets/1220717d-c4b8-4807-9b36-0c4f686afbe2)
+ 
+  - 
+
 
 ### 5. **RTLO Spoofing Detection**
 - Uncovered Unicode manipulation techniques to disguise executable files
 - Identified homoglyph attacks and zero-width character obfuscation
 - Analyzed file signatures and MIME types to reveal true file nature
+
+- ![UNICORD Spoofing](https://github.com/user-attachments/assets/2528bd34-99c5-4fa3-b434-915cb767df39)
+
+- ![p6](https://github.com/user-attachments/assets/05fd93a4-edb2-45ec-afed-8620d0c6a830)
+
+- ![18](https://github.com/user-attachments/assets/09e711c8-6049-4a91-9f03-3964e8b2bfa5)
+- 
+![17](https://github.com/user-attachments/assets/d33400e0-c526-415c-b36f-5bed960abebe)
+
+
+
 
 ### 6. **Incident Response & Remediation**
 - Purged malicious emails from multiple user inboxes
@@ -53,11 +90,24 @@ This project covers the complete lifecycle of phishing analysis and response, fr
 - **Hybrid Analysis** - Dynamic malware analysis in sandboxed environment
 - **urlscan.io** - OSINT tool for safe URL analysis and threat scoring
 
+![Pestudio](https://github.com/user-attachments/assets/cb4ca878-d163-44a8-ada3-2502c48b089e)
+
+![VirusT](https://github.com/user-attachments/assets/8f22ae8e-2e30-49d8-8aca-6ec90ba15823)
+
+![13](https://github.com/user-attachments/assets/b992ecd7-7a10-4f34-af17-5abc8546b0de)
+
+
+
 ### Investigation Tools
 - **AbuseIPDB** - IP reputation lookup and malicious activity tracking
 - **Microsoft Outlook** - Email header examination and forensic analysis
 - **Command Prompt/Terminal** - Filename verification and RTLO detection
 - **Papaparse** - CSV processing for log analysis
+![p4](https://github.com/user-attachments/assets/251a3e72-e15e-4f13-b8da-4bd8c99e139c)
+
+![cmd](https://github.com/user-attachments/assets/1c0dea01-5aa6-4ecd-bd19-a6c636d66acb)
+
+
 
 ### Security Frameworks
 - **Exchange Online** - Email filtering and phishing rule creation
